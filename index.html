@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="utf-8">
 	<title>DocDoc</title>
 
 	<!-- Load style sheets -->
-	<link rel="stylesheet" href=
-	  "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.css">
 	<link rel="stylesheet" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-	
+
 	<!-- Load any supplemental Javascript libraries here -->
-	<script src=
-	  "https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -31,79 +30,101 @@
 		<div class='row no-gutters'>
 			<div class='col-md-2'>
 				<div class='flex-container' id='leftContent'>
-				
+
 					<img src='left_arrow.png' id='backArrowLeft'>
-				
+
 					<div class='card text-center accountIcon' id='boyIcon'>
 						<img class='card-img-top avatar' src='boy_icon.png'>
 						<div class='card-body'>
 							<h3 class='card-title'>Bob</h3>
 						</div>
 					</div>
-					
-					<div class='card text-center accountIcon' id='girlIcon' >
+
+					<div class='card text-center accountIcon' id='girlIcon'>
 						<img class='card-img-top avatar' src='girl_icon.png'>
 						<div class='card-body'>
 							<h3 class='card-title'>Jannette</h3>
 						</div>
 					</div>
-					
+
 					<div class='card text-center accountIcon' id='plusIcon'>
 						<img class='card-img-top avatar' src='plus.svg'>
 					</div>
-					
+
 					<div class='card accountInfo' id='userInfo'>
 						<div class='card-header text-center'>
 							<h5 style='margin:0;padding:0;'>Info</h5>
 						</div>
 						<div class='card-body flex-center noInfoDefault'>
-							<div><h3>+Add Info+</h3></div>
+							<div>
+								<h3>+Add Info+</h3>
+							</div>
 						</div>
 						<div class='card-body populatedInfo'>
 							<p id='allergies'>Allergies<p>
-							<ul id='allergiesList no-gutters'>
-								<li>Pollen</li>
-							</ul>
-							<p id='medication'>Medication<p>
-							<ul id='medicationList'>
-								<li>Pollen-away</li>
-							</ul>
-							<p id='age'>Age: <span id='ageValue'>12</span><p>
-							<p id='weight'>Weight: <span id='weightValue'>120</span><p>
-							<p id='bloodType'>Blood Type: <span id='bloodTypeValue'>AB-</span><p>
+									<ul id='allergiesList no-gutters'>
+										<li>Pollen</li>
+									</ul>
+									<p id='medication'>Medication<p>
+											<ul id='medicationList'>
+												<li>Pollen-away</li>
+											</ul>
+											<p id='age'>Age: <span id='ageValue'>12</span>
+												<p>
+													<p id='weight'>Weight: <span id='weightValue'>120</span>
+														<p>
+															<p id='bloodType'>Blood Type: <span
+																	id='bloodTypeValue'>AB-</span>
+																<p>
 						</div>
 					</div>
-					
+
 					<div class='card accountInfo' id='doctorInfo'>
 						<div class='card-header text-center'>
 							<h5 style='margin:0;padding:0;'>Doctor Info</h5>
 						</div>
 						<div class='card-body flex-center noInfoDefault' style='display:flex;'>
-							<div><h3>+Add Doctor+</h3></div>
+							<div>
+								<h3>+Add Doctor+</h3>
+							</div>
 						</div>
 						<div class='card-body populatedInfo' style='display:none;'>
-							<p id='doctorName'>Name: <span id='doctorNameValue'>Dr. Doc</span><p>
-							<p id='doctorNumber'>Number: <span id='doctorNumberValue'>888-882-1232</span><p>
-							<p id='doctorEmail'>Email: <span id='doctorEmailValue'>docdoc@dmail.biz</span><p>
-							<p id='doctorAddress'>Address: <span id='doctorAddressValue'>A4990 Doctor ln.</span><p>
+							<p id='doctorName'>Name: <span id='doctorNameValue'>Dr. Doc</span>
+								<p>
+									<p id='doctorNumber'>Number: <span id='doctorNumberValue'>888-882-1232</span>
+										<p>
+											<p id='doctorEmail'>Email: <span
+													id='doctorEmailValue'>docdoc@dmail.biz</span>
+												<p>
+													<p id='doctorAddress'>Address: <span id='doctorAddressValue'>A4990
+															Doctor ln.</span>
+														<p>
 						</div>
 					</div>
-					
+
 					<div class='card accountInfo' id='schoolInfo'>
 						<div class='card-header text-center'>
 							<h5 style='margin:0;padding:0;'>Doctor Info</h5>
 						</div>
 						<div class='card-body flex-center noInfoDefault'>
-							<div><h3>+Add School+</h3></div>
+							<div>
+								<h3>+Add School+</h3>
+							</div>
 						</div>
 						<div class='card-body populatedInfo'>
-							<p id='schoolName'>Name: <span id='schoolNameValue'>Middlth Elementary High For the Arts</span><p>
-							<p id='schoolNumber'>Number: <span id='schoolNumberValue'>882-902-1732</span><p>
-							<p id='schoolEmail'>Email: <span id='schoolEmailValue'>nurse@meh.com</span><p>
-							<p id='schoolAddress'>Address: <span id='schoolAddressValue'>4880 School Dr.</span><p>
+							<p id='schoolName'>Name: <span id='schoolNameValue'>Middlth Elementary High For the
+									Arts</span>
+								<p>
+									<p id='schoolNumber'>Number: <span id='schoolNumberValue'>882-902-1732</span>
+										<p>
+											<p id='schoolEmail'>Email: <span id='schoolEmailValue'>nurse@meh.com</span>
+												<p>
+													<p id='schoolAddress'>Address: <span id='schoolAddressValue'>4880
+															School Dr.</span>
+														<p>
 						</div>
 					</div>
-					
+
 				</div>
 			</div>
 			<div class='col-md-10'>
@@ -130,31 +151,88 @@
 							</div>
 						</div>
 					</div>
+
 					<div class='row no-gutters' id='mainView'>
 						<div class='col-md-12' style='height:100%;margin:0auto;padding:0auto;'>
 							<div id='feed' class='tabView  selectedView'>
+								<!--Feed View-->
+								<div class="grid-container" id="feedContainer" style="background-color: white; width: 100%">
+									<div class="column" style=" width: 100%; height:100%;">
+										<button type= "button" class = "button feedFile" style = "width: 100%;">
+											<h2>File Added: Bob Vaccines.pdf</h2>
+											<p>March 3rd, 2019: BOB</p>
+										</button>
+										
+									
+									<div class="column" style="width: 100%;">
+										<button type= "button" class ="button feedFile" style = "width: 100%;">
+											<h2>File Added: Jannette Vaccines.pdf </h2>
+											<p>March 1st, 2019: JANNETTE</p>
+										</button>
+									
+
+									<div class="column" style="width: 100%;">  
+										<button type= "button" class = "button feedAppt" style = "width: 100%;">
+											<h2>Appointment Added: Jannette CheckUp</h2>
+											<p>February 20th, 2019: JANNETTE PEDIATRICIAN</p>
+										</button>
+
+									<div class="column"  style=" width: 100%;">
+										<button type= "button" class = "button feedFile"style = "width: 100%;">
+											<h2>File Added: Bob School Forms.pdf</h2>
+											<p>February 18th, 2019: BOB</p>
+										</button>
+
+									<div class="column" style=" width: 100%;">  
+										<button type= "button" class = "button feedAppt" style = "width: 100%;">
+											<h2>Appointment Added: Bob CheckUp</h2>
+										<p>February 12th, 2019: BOB PEDIATRICIAN</p>
+										</button>
+
+									<div class="column" style=" width: 100%;">
+										<button type= "button" class = "button feedFile" style = "width: 100%;">
+											<h2>File Added: Dr.Realman Sick Note for Jannette.pdf</h2>
+											<p>February 9th, 2019: JANNETTE</p>
+										</button>
+
+									<div class="column" style=" width: 100%;">  
+									<button type= "button" class = "button feedFile" style = "width: 100%;">
+										<h2>File Added: Dr.Realman Sick Note for Bob.pdf</h2>
+										<p>February 2nd, 2019: BOB</p>
+									</button>
+
+									<div class="column" style=" width: 100%;">
+									<button type= "button" class = "button feedFile"  style = "width: 100%;">
+										<h2>File Added: Bob School Form.pdf</h2>
+										<p>January 5th, 2019: BOB</p>
+									</button>
+									</div>
+								</div>
 							</div>
-							
-							<div id='calendar' class='tabView'>
-							</div>
-							
-							<div id='find' class='tabView'>
-							</div>
-							
-							<div id='files' class='tabView'>
-							</div>
-							
-							<div class='popup text-center' id='userInfoPopup'>
-								<h2>What is you're phone number?
+							<!--Feed View-->
+						</div>
+
+						<div id='calendar' class='tabView'>
+						</div>
+
+						<div id='find' class='tabView'>
+						</div>
+
+						<div id='files' class='tabView'>
+						</div>
+
+						<div class='popup text-center' id='userInfoPopup'>
+							<h2>What is you're phone number?
 								<h2>Plz Respond.
-							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	
+	</div>
+
 	<script src='controller.js'></script>
 </body>
+
 </html>

@@ -192,7 +192,7 @@ ul {
 	z-index: 2 !important;
 }
 #feed {
-	background: yellow;
+	background: white;
 }
 #calendar{
 	background: blue;
@@ -217,4 +217,51 @@ ul {
 	z-index: 10;
 	background: #F79696;
 	display: none;
+}
+
+
+
+
+h2{
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.feedFile {
+	padding-left:150px;
+	background-color: #F79696;
+	border: 2px dashed #D05353;
+	transition-duration: 0.4s;
+	background-image: url(document-icon.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: block;
+	text-align: left;
+	font-weight: bolder;
+	}
+
+.feedFile:hover{
+	box-shadow: 0 8px 16px 0 rgba(156, 17, 17, 0.801), 0 6px 20px 0 rgba(156, 17, 17, 0.821);
+	background-color: #F79696;
+	color: white;
+	border: 2px solid #FFFFFF;
+}
+
+.feedAppt {
+	padding-left:150px;
+	background-color: #D05353;
+	border: 2px dashed #F79696;
+	transition-duration: 0.4s;
+	text-align: left;
+	background-image: url(calander-icon.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: block;
+	font-weight: bolder;
+}
+
+.feedAppt:hover{
+	border: 2px solid #FFFFFF;
+	box-shadow: 0 8px 16px 0 rgba(156, 17, 17, 0.801), 0 6px 20px 0 rgba(156, 17, 17, 0.821);
+	background-color:#D05353;
+	color: white;
 }
